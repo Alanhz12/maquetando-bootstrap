@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(144, 148, 151, 0.712);
+}
+.body-contacto{
+    background-color: aliceblue;
+}
+.section1{
+    height: 500px;
+    grid-area: section1;
+    background-image:url(./imagenes/fondo-section1.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    background-size:cover;
+display: grid;
+place-content: center;
+}
+.section2{
+    padding: 9px;
+   padding-left: 90px;
+  
+}
+.section-contacto{
+    padding: 9px;
+}
+p{
+    text-align:center;
+    font-size:xx-large;
+    font-family: none;
+}
+.card{
+    display: inline-flex;
+
+}
+.footer{
+    padding: 9px;
+    
+}
